@@ -7,10 +7,10 @@ export default hopeTheme({
 
   author: {
     name: "Lei Li",
-    url: "https://www.cs.ucsb.edu/~leili",
+    url: "https://www.cs.cmu.edu/~leili",
   },
 
-  iconAssets: "iconfont",
+  iconAssets: "fontawesome",
 
   logo: "/logo.svg",
 
@@ -27,6 +27,8 @@ export default hopeTheme({
   footer: "Li Lab",
 
   displayFooter: true,
+
+  fullscreen: true,
 
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
@@ -48,6 +50,11 @@ export default hopeTheme({
   plugins: {
     blog: {
       autoExcerpt: true,
+    },
+
+    prismjs: {
+      light: "vs",
+      dark: "vsc-dark-plus",
     },
 
     // If you don't need comment feature, you can remove following option
@@ -77,8 +84,9 @@ export default hopeTheme({
     },
 
     mdEnhance: {
-      enableAll: false,
-      tex: true,
+      katex: true,
+      chart: true,
+      echarts: true,
       presentation: {
         plugins: ["highlight", "math", "search", "notes", "zoom"],
       },

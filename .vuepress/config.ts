@@ -4,8 +4,8 @@ import theme from "./theme.js";
 
 export default defineUserConfig({
   lang: "en-US",
-  title: "MLNLP Blog",
-  description: "A Blog for Machine Learning, Natural Language Processing, and Data Mining",
+  title: "Li-Lab Blog",
+  description: "A Blog for Machine Learning, Natural Language Processing, and AI for Science",
   base: "/blog/",
   theme,
   plugins: [
