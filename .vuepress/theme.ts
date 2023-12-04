@@ -48,9 +48,7 @@ export default hopeTheme({
   },
 
   plugins: {
-    blog: {
-      autoExcerpt: true,
-    },
+    blog: true,
 
     prismjs: {
       light: "vs",
@@ -85,11 +83,8 @@ export default hopeTheme({
 
     mdEnhance: {
       katex: true,
-      chart: true,
       echarts: true,
-      presentation: {
-        plugins: ["highlight", "math", "search", "notes", "zoom"],
-      },
+      chart: true,
     },
   },
 });
