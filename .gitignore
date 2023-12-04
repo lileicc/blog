@@ -1,6 +1,9 @@
 node_modules/
 yarn.lock
 yarn.error
+.vuepress/.cache/
+.vuepress/.temp/
+.vuepress/dist/
 **/.temp
 **/.cache
 
