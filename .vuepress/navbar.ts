@@ -4,7 +4,7 @@ export default navbar([
   "/",
   { 
     text: "Category", 
-    icon: "categoryselected", 
+    icon: "baseline-category", 
     link: "/category/" 
   },
   {

@@ -10,7 +10,7 @@ export default hopeTheme({
     url: "https://www.cs.cmu.edu/~leili",
   },
 
-  iconAssets: "fontawesome",
+  iconAssets: "iconify",
 
   logo: "/logo.svg",
 
