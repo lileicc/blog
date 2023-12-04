@@ -1,7 +1,7 @@
 {
-  "name": "lilab-blog",
+  "name": "Li-Lab-Blog",
   "version": "2.0.0",
-  "description": "BLog for Machine Learning and Natural Language Processing",
+  "description": "Blog for Machine Learning, Natural Language Processing, and AI for Science",
   "license": "MIT",
   "type": "module",
   "scripts": {
@@ -11,12 +11,11 @@
     "docs:update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "@vuepress/client": "^2.0.0-rc.0",
-    "@vuepress/plugin-search": "^2.0.0-rc.0",
+    "@vuepress/client": "2.0.0-rc.0",
     "echarts": "^5.4.3",
     "katex": "^0.16.9",
     "vue": "^3.3.9",
-    "vuepress": "^2.0.0-rc.0",
-    "vuepress-theme-hope": "^2.0.0-rc.1"
+    "vuepress": "2.0.0-rc.0",
+    "vuepress-theme-hope": "2.0.0-rc.1"
   }
 }
