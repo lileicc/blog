@@ -1,4 +1,4 @@
-import { searchPlugin } from "@vuepress/plugin-search";
+import { searchProPlugin } from "vuepress-plugin-search-pro";
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
@@ -9,8 +9,20 @@ export default defineUserConfig({
   base: "/blog/",
   theme,
   plugins: [
-    searchPlugin({
-      // your options
+    searchProPlugin({
+      // index all contents
+      indexContent: true,
+      // add supports for category and tags
+      customFields: [
+        {
+          getter: (page) => page.frontmatter.category,
+          formatter: "Category: $content",
+        },
+        {
+          getter: (page) => page.frontmatter.tag,
+          formatter: "Tag: $content",
+        },
+      ],
     }),
   ],
 });
