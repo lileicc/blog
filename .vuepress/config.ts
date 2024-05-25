@@ -1,4 +1,5 @@
 import { searchProPlugin } from "vuepress-plugin-search-pro";
+import { viteBundler } from '@vuepress/bundler-vite';
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
@@ -8,6 +9,10 @@ export default defineUserConfig({
   description: "A Blog for Machine Learning, Natural Language Processing, and AI for Science",
   base: "/blog/",
   theme,
+  bundler: viteBundler({
+    viteOptions: {},
+    vuePluginOptions: {},
+  }),
   plugins: [
     searchProPlugin({
       // index all contents
