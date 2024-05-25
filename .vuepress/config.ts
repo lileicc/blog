@@ -12,21 +12,4 @@ export default defineUserConfig({
     viteOptions: {},
     vuePluginOptions: {},
   }),
-  plugins: [
-    searchProPlugin({
-      // index all contents
-      indexContent: true,
-      // add supports for category and tags
-      customFields: [
-        {
-          getter: (page) => page.frontmatter.category,
-          formatter: "Category: $content",
-        },
-        {
-          getter: (page) => page.frontmatter.tag,
-          formatter: "Tag: $content",
-        },
-      ],
-    }),
-  ],
 });
