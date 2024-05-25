@@ -26,6 +26,7 @@ jobs:
         name: Install pnpm
         with:
           run_install: true
+            - args: [--no-frozen-lockfile]
           version: 9
 
       - name: Build Docs
