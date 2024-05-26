@@ -10,7 +10,7 @@ tag:
 star: true
 ---
 
-# How Can we Scientifically Assess Knowledge Contained in a Large Language Model?
+# How Can We Scientifically Assess Knowledge Contained in a Large Language Model?
 
 Paper: https://arxiv.org/pdf/2305.10519
 
