@@ -10,7 +10,7 @@ tag:
 star: true
 ---
 
-# Evaluating The Issue of Large Language Model Generating Unreliable Responses
+# How Can we Scientifically Assess Knowledge Contained in a Large Language Model?
 
 Paper: https://arxiv.org/pdf/2305.10519
 
